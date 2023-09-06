@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+  <section class="top-banner">
+    <div class="container">
+      <center>
+          <h1 class="heading">Weather App</h1>
+      </center>
+      <form>
+        <input id="search-input" type="text" placeholder="Search for a city" value="" autofocus>
+        <button id="search-button" type="submit">SUBMIT</button>
+        <span class="msg"></span>
+        <button id="reset-button" type="submit">RESET</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities">
+
+        <!-- <li class="cities_item">
+
+          <div class="city-header">
+            <h3>City</h3>
+            <span>TR</span>
+          </div>
+          <div class="temp">
+            <h3>15</h3>
+            <span>°C</span>
+          </div>
+          <figure>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/01d.svg" alt=""  class="mt-3">
+            <figcaption>PARCALI BULUTLU</figcaption>
+          </figure>
+        
+        </li> -->
+
+
+      </ul>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="container">
+      <small>Coded by <span>❤</span>FS Team</a>
+      </small>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
